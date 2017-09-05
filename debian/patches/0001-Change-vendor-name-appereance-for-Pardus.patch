@@ -1,0 +1,39 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Tue, 22 Aug 2017 16:04:40 +0300
+Subject: Change vendor name appereance for Pardus
+
+---
+ modules/systeminfo/systeminfowidget.cpp | 12 +++++++++---
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+
+diff --git a/modules/systeminfo/systeminfowidget.cpp b/modules/systeminfo/systeminfowidget.cpp
+index 12efcaf..127e7be 100644
+--- a/modules/systeminfo/systeminfowidget.cpp
++++ b/modules/systeminfo/systeminfowidget.cpp
+@@ -8,16 +8,22 @@
+ #include <QSettings>
+ #include <QDebug>
+ #include <QApplication>
++#include <QByteArray>
++#include <QTextCodec>
+ 
+ const QString systemCopyright()
+ {
+     const QSettings settings("/etc/deepin-installer.conf", QSettings::IniFormat);
+     const QString oem_copyright = settings.value("system_info_vendor_name").toString();
+ 
+-    if (oem_copyright.isEmpty())
+-        return QApplication::translate("dcc::systeminfo::SystemInfoWidget", "Copyright © 2011-2017 Wuhan Deepin Technology Co., Ltd.");
+-    else
++    if (oem_copyright.isEmpty()) {
++	QByteArray encodedString = "TÜBİTAK - ULAKBİM";
++	QTextCodec *codec = QTextCodec::codecForName( "UTF-8" );
++	const QString out = codec->toUnicode( encodedString );
++    	return out;
++    } else {
+         return oem_copyright;
++    }
+ }
+ 
+ const QString systemLogo()

@@ -1,0 +1,29 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Tue, 5 Sep 2017 13:36:59 +0300
+Subject: Update TR translation
+
+---
+ translations/dde-control-center_tr.ts | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/translations/dde-control-center_tr.ts b/translations/dde-control-center_tr.ts
+index 8d3fcc7..f4f90d0 100644
+--- a/translations/dde-control-center_tr.ts
++++ b/translations/dde-control-center_tr.ts
+@@ -1677,7 +1677,7 @@
+     <message>
+         <location filename="../modules/personalization/personalizationwidget.cpp" line="28"/>
+         <source>Enable window effect</source>
+-        <translation type="unfinished"/>
++        <translation>Pencere Efektlerini Aç</translation>
+     </message>
+     <message>
+         <location filename="../modules/personalization/personalizationwidget.cpp" line="30"/>
+@@ -2215,4 +2215,4 @@
+         <translation>İptal</translation>
+     </message>
+ </context>
+-</TS>
+\ No newline at end of file
++</TS>

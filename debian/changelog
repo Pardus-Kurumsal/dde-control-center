@@ -1,3 +1,15 @@
+dde-control-center (4.2.5-2pardus3) onyedi; urgency=medium
+
+  * Update TR translation
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 05 Sep 2017 13:39:39 +0300
+
+dde-control-center (4.2.5-2pardus2) onyedi; urgency=medium
+
+  * Add patches
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 22 Aug 2017 16:05:33 +0300
+
 dde-control-center (4.2.5-2pardus1) onyedi; urgency=medium
 
   * Update control file for Pardus.
