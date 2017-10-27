@@ -1,0 +1,11 @@
+dde-control-center (4.2.5-2pardus1) onyedi; urgency=medium
+
+  * Update control file for Pardus.
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 21 Aug 2017 15:30:40 +0300
+
+dde-control-center (4.2.5-2) unstable; urgency=low
+
+  * Auto Version update.
+
+ -- shuttle <shuttle@deepin.com>  Fri, 21 Jul 2017 03:30:56 +0000

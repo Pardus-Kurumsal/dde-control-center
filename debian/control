@@ -1,0 +1,44 @@
+Source: dde-control-center
+Section: admin
+Priority: optional
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>= 9),
+ pkg-config,
+ dpkg-dev,
+ libx11-dev,
+ qt5-qmake,
+ qt5-default,
+ qtdeclarative5-dev,
+ deepin-gettext-tools,
+ dde-dock-dev,
+ libdtkwidget-dev,
+ qtmultimedia5-dev,
+ libqt5svg5-dev,
+ qttools5-dev-tools,
+ libdtkbase-dev,
+ libdtkutil-dev,
+ libdtkwidget-dev,
+ libgeoip-dev,
+ libdframeworkdbus-dev,
+ libgsettings-qt-dev,
+ clang [mips64el]
+Standards-Version: 3.9.8
+Homepage: https://github.com/linuxdeepin/dde-control-center
+
+Package: dde-control-center
+Architecture: any
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ dde-account-faces,
+ dde-daemon,
+ dde-api (>=2.92.1),
+ deepin-artwork-themes,
+ libqt5multimedia5-plugins,
+ gstreamer1.0-plugins-bad,
+ xkb-data,
+ tzdata-l10n,
+ netselect,
+ geoip-database-extra,
+ deepin-installer-timezones
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.

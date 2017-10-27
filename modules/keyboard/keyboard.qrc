@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/keyboard">
+        <file>themes/dark/dark.qss</file>
+        <file>themes/dark/icons/nav_keyboard.png</file>
+        <file>themes/light/light.qss</file>
+        <file>themes/dark/icons/list_delete_hover.png</file>
+        <file>themes/dark/icons/list_delete_normal.png</file>
+        <file>themes/dark/icons/list_delete_press.png</file>
+        <file>themes/dark/icons/select.png</file>
+        <file>themes/light/icons/list_delete_hover.png</file>
+        <file>themes/light/icons/list_delete_normal.png</file>
+        <file>themes/light/icons/list_delete_press.png</file>
+        <file>themes/light/icons/nav_keyboard.png</file>
+        <file>themes/light/icons/select.png</file>
+        <file>themes/common/icons/power.png</file>
+        <file>themes/common/icons/super_key.png</file>
+        <file>themes/common/icons/edit_hover.png</file>
+        <file>themes/common/icons/edit_normal.png</file>
+        <file>themes/common/icons/edit_press.png</file>
+    </qresource>
+</RCC>
